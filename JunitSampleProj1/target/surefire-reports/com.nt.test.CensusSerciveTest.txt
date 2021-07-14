@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.nt.test.CensusSerciveTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.161 s <<< FAILURE! - in com.nt.test.CensusSerciveTest
+com.nt.test.CensusSerciveTest.testisOdd(int)[3]  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.nt.test.CensusSerciveTest.testisOdd(CensusSerciveTest.java:26)
+
+com.nt.test.CensusSerciveTest.testisOdd(int)[4]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.nt.test.CensusSerciveTest.testisOdd(CensusSerciveTest.java:26)
+
+com.nt.test.CensusSerciveTest.testisOdd(int)[5]  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.nt.test.CensusSerciveTest.testisOdd(CensusSerciveTest.java:26)
+

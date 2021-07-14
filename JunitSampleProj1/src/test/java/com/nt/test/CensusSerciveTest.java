@@ -19,11 +19,10 @@ public class CensusSerciveTest {
 	}*/
    
 	@ParameterizedTest
-	@ValueSource(ints = {1,11,12,48,56,75,49})
-	public void testisOdd(int n)
-	{
-		CensusService service=new CensusService();
+	@ValueSource(ints = { 1, 11, 12, 48, 56, 75, 49 })
+	public void testisOdd(int n) {
+		CensusService service = new CensusService();
 		Assertions.assertTrue(service.isOdd(n));
-		
+
 	}
 }
