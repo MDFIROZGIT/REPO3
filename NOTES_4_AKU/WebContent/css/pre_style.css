@@ -1,0 +1,25 @@
+
+
+
+.abox
+{
+	background-color:#E5E4E2;
+	height:500px;
+	
+}
+.aabox
+{
+	background-color:#E5E4E2;
+	height:1000px;
+	
+}
+.btn1
+{
+	border:1px red solid;
+	width: 50%;
+}
+.btn1:hover
+{
+	background-color:red;
+}
+

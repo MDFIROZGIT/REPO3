@@ -14,4 +14,13 @@ public class CensusService {
 		else
 			 return true;
 	}
+	public String sayHello(String user)
+	{
+		return "hello"+user;
+	}
+	
+	public boolean isEmpty(String name)
+	{
+		 return name.isEmpty();
+	}
 }
